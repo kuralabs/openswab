@@ -6,8 +6,12 @@ include <head.scad>;
 module swab(
     // Head height
     head_h=20.0,
-    // Head diameter
-    head_d=3.5,
+    // Head external diameter
+    head_external_d=3.5,
+    // Internal head diameter
+    head_internal_d=2.0,
+    // Head type. Available "bristle" and "pyramid"
+    head_type="bristle",
 
     // Flex height, will be placed after the head, thus incrementing the total height
     flex_h=30.0,
@@ -37,6 +41,23 @@ module swab(
     // Punch a notch
     difference() {
         union() {
+            // Head
+            translate([0, 0, base_h + body_h + flex_h])
+                if (head_type == "bristle") {
+                    bristle_head(
+                        head_h=head_h,
+                        head_external_d=head_external_d,
+                        head_internal_d=head_internal_d
+                    );
+                } else if (head_type == "pyramid") {
+                    pyramid_head(
+                        head_h=head_h,
+                        head_external_d=head_external_d,
+                        head_internal_d=head_internal_d
+                    );
+                } else {
+                    cylinder(h=head_h, d=head_external_d);
+                }
             // Flex
             translate([0, 0, base_h + body_h])
                 cylinder(h=flex_h, d=flex_d);
@@ -61,8 +82,20 @@ module swab(
 
 
 
-// Testing
-$fn=200;
+// Final rendering
+module swabs(grid=5, translation=-150) {
+    translate([grid, grid, translation])
+        swab(head_type="pyramid", notch_d=80.0);
 
-translate([0, 0, -80])
-    swab();
+    translate([-grid, grid, translation])
+        swab(head_type="bristle", notch_d=80.0);
+
+    translate([grid, -grid, translation])
+        swab(head_type="pyramid", notch_d=95.0);
+
+    translate([-grid, -grid, translation])
+        swab(head_type="bristle", notch_d=95.0);
+}
+
+$fn=100;
+swabs(translation=0);

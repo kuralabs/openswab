@@ -1,4 +1,39 @@
 /**
+ * Shape of a 3D star.
+ */
+module starburst(r1, r2, n, height) {
+    a = 180 / n;
+
+    p0 = [0, 0, 0];
+    p1 = [r2 * cos(a), r2 * sin(a), 0];
+    p2 = [r1, 0, 0];
+    p3 = [0, 0, height];
+
+    module half_burst() {
+        polyhedron(points = [p0, p1, p2, p3], 
+            faces = [
+                [0, 2, 1],
+                [0, 1, 3],
+                [0, 3, 2], 
+                [2, 1, 3]
+            ]
+        );
+    }
+
+    module burst() {
+        hull() {
+            half_burst();
+            mirror([0, 1,0]) half_burst();
+        }
+    }
+
+    for(i = [0 : n - 1]) {
+        rotate(2 * a * i) burst();
+    }
+}
+
+
+/**
  * Generate shape that places children in a spiral.
  */
 module spiral(step_max=100, z_step=0.1, angle_step=5, scale_step=-0.01, scale_start=50) {
@@ -28,10 +63,10 @@ module spiral(step_max=100, z_step=0.1, angle_step=5, scale_step=-0.01, scale_st
     };
 }
 
+
 /**
  * Generate a hollow oval shape.
  */
-
 module oval_bristle(extension=3.5, thickness=0.5, width=1, ratio=0.8) {
     difference() {
         resize(newsize=[extension, 0, thickness])
@@ -95,6 +130,7 @@ module coil(
     }
 }
 
+
 /**
  * A negative shape to create notches in cylindrical objects.
  */
@@ -143,13 +179,3 @@ module smoother(external_d=3, internal_d=1) {
         cylinder(h=torus_t, r=external_d);
     }
 }
-
-
-// Testing
-//smoother(external_d=5.0, internal_d=2.5, $fn=100);
-//notch($fn=100);
-//spiral() {
-//    translate([0, 0, 0.25])
-//        rotate([90, 0, 0])
-//            cylinder(h=2, d=0.5);
-//};

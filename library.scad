@@ -1,7 +1,7 @@
 /**
  * Shape of a 3D star.
  */
-module starburst(r1, r2, n, height) {
+module starburst(r1=10, r2=5, n=6, height=5) {
     a = 180 / n;
 
     p0 = [0, 0, 0];
@@ -68,67 +68,16 @@ module spiral(step_max=100, z_step=0.1, angle_step=5, scale_step=-0.01, scale_st
  * Generate a hollow oval shape.
  */
 module oval_bristle(extension=3.5, thickness=0.5, width=1, ratio=0.8) {
-    difference() {
-        resize(newsize=[extension, 0, thickness])
-            sphere(d=width);
-        resize(newsize=[extension * ratio, width * ratio, thickness])
-            cylinder(h=1, d=1, center=true);
+    render() {
+        difference() {
+            scale([extension, width, thickness])
+                sphere(d=1);
+            scale([extension * ratio, width * ratio, thickness])
+                cylinder(h=1, d=1, center=true);
+        }
     }
 }
 
-
-/**
- * A coil or spring shape.
- */
-module coil(
-    r1=100,
-    r2=10,
-    h=100,
-    clockwise=true,
-    twists
-) {
-    rotation = clockwise ? 1 : -1;
-    hr = h / (twists * 2);
-    stepsize = 1 / 16;
-
-    module segment(i1, i2) {
-
-        alpha1 = i1 * 360 * r2 / hr;
-        alpha2 = i2 * 360 * r2 / hr;
-        len1 = sin(acos(i1 * 2 - 1)) * r2;
-        len2 = sin(acos(i2 * 2 - 1)) * r2;
-
-        if (len1 < 0.01)
-            polygon([
-                [cos(alpha1) * r1, sin(alpha1) * r1],
-                [cos(alpha2) * (r1 - len2), sin(alpha2) * (r1 - len2)],
-                [cos(alpha2) * (r1 + len2), sin(alpha2) * (r1 + len2)]
-            ]);
-        if (len2 < 0.01)
-            polygon([
-                [cos(alpha1) * (r1 + len1), sin(alpha1) * (r1 + len1)],
-                [cos(alpha1) * (r1 - len1), sin(alpha1) * (r1 - len1)],
-                [cos(alpha2) * r1, sin(alpha2) * r1],
-            ]);
-        if (len1 >= 0.01 && len2 >= 0.01)
-            polygon([
-                [cos(alpha1) * (r1 + len1), sin(alpha1) * (r1 + len1)],
-                [cos(alpha1) * (r1 - len1), sin(alpha1) * (r1 - len1)],
-                [cos(alpha2) * (r1 - len2), sin(alpha2) * (r1 - len2)],
-                [cos(alpha2) * (r1 + len2), sin(alpha2) * (r1 + len2)]
-            ]);
-    }
-
-    linear_extrude(
-        height=h,
-        twist=rotation * 180 * h / hr,
-        convexity=5,
-        $fn=(hr / r2) / stepsize
-    ) {
-        for (i = [stepsize : stepsize : 1 + stepsize / 2])
-            segment(i - stepsize, min(i, 1));
-    }
-}
 
 
 /**

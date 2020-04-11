@@ -1,6 +1,5 @@
-include <shapes.scad>;
+include <head.scad>;
 
-$fn=200;
 
 // All parameters are in millimeters
 // Total height is given by head_h + flex_h + body_h + base_h
@@ -63,5 +62,7 @@ module swab(
 
 
 // Testing
+$fn=200;
+
 translate([0, 0, -80])
     swab();

@@ -1,4 +1,35 @@
 /**
+ * Generate shape that places children in a spiral.
+ */
+module spiral(step_max=100, z_step=0.1, angle_step=5, scale_step=-0.01, scale_start=50) {
+    module _spiral(c_step=0, c_z=0, c_angle=0, c_scale=1) {
+
+        c_scale = c_step < scale_start ? 1 : c_scale + scale_step;
+
+        if (c_step < step_max) {
+            translate([0, 0, c_z])
+                rotate([0, 0, c_angle]) {
+                    scale([1, c_scale, 1])
+                        children();
+                }
+
+            _spiral(
+                c_step=c_step + 1,
+                c_z=c_z + z_step,
+                c_angle=c_angle + angle_step,
+                c_scale=c_scale
+            ) {
+                children();
+            };
+        }
+    }
+    _spiral() {
+        children();
+    };
+}
+
+
+/**
  * A coil or spring shape.
  */
 module coil(
@@ -78,6 +109,7 @@ module torus(diameter=3, thickness=1) {
             circle(d=thickness);
 }
 
+
 /**
  * Smoother between two contiguous cylinders of different diameter.
  */
@@ -102,5 +134,10 @@ module smoother(external_d=3, internal_d=1) {
 
 
 // Testing
-// smoother(external_d=5.0, internal_d=2.5, $fn=100);
-// notch($fn=100);
+//smoother(external_d=5.0, internal_d=2.5, $fn=100);
+//notch($fn=100);
+//spiral() {
+//    translate([0, 0, 0.25])
+//        rotate([90, 0, 0])
+//            cylinder(h=2, d=0.5);
+//};

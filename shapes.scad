@@ -9,7 +9,7 @@ module spiral(step_max=100, z_step=0.1, angle_step=5, scale_step=-0.01, scale_st
         if (c_step < step_max) {
             translate([0, 0, c_z])
                 rotate([0, 0, c_angle]) {
-                    scale([1, c_scale, 1])
+                    scale([c_scale, c_scale, c_scale])
                         children();
                 }
 
@@ -26,6 +26,19 @@ module spiral(step_max=100, z_step=0.1, angle_step=5, scale_step=-0.01, scale_st
     _spiral() {
         children();
     };
+}
+
+/**
+ * Generate a hollow oval shape.
+ */
+
+module oval_bristle(extension=3.5, thickness=0.5, width=1, ratio=0.8) {
+    difference() {
+        resize(newsize=[extension, 0, thickness])
+            sphere(d=width);
+        resize(newsize=[extension * ratio, width * ratio, thickness])
+            cylinder(h=1, d=1, center=true);
+    }
 }
 
 
@@ -93,7 +106,7 @@ module notch(external_d=3, internal_d=1, height=3) {
             cylinder(d1=internal_d, d2=external_d, h=height / 2);
                 translate([0, 0, - height / 2])
             cylinder(d1=external_d, d2=internal_d, h=height / 2);
-            
+
             cylinder(d=internal_d, h=height, center=true);
         }
     }
@@ -123,14 +136,13 @@ module smoother(external_d=3, internal_d=1) {
         translate([0, 0, torus_t])
             torus(diameter=external_d, thickness=torus_t);
     }
-    
+
     // Bottom smooth
     intersection() {
         torus(diameter=external_d, thickness=torus_t);
         cylinder(h=torus_t, r=external_d);
     }
 }
-
 
 
 // Testing

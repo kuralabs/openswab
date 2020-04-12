@@ -58,7 +58,7 @@ para un total de cuatro modelos.
 | ------------------ | --------------- | --------------- | ---------------------------- | ---------------------------- |
 | *Público meta*     | Adulto          | Adulto          | Adulto                       | Adulto                       |
 | *Uso*              | Nasofaringeal   | Nasofaringeal   | Nasofaringeal                | Nasofaringeal                |
-| *Altura total*     |         150.0mm |         150.0mm |                      150.0mm |                      150.0mm |
+| *Altura total*     |         145.0mm |         145.0mm |                      145.0mm |                      145.0mm |
 | *Material*         | Resina UV 405nm | Resina UV 405nm | Resina UV 405nm              | Resina UV 405nm              |
 | *Esterilización*   | Autoclave       | Autoclave       | Autoclave                    | Autoclave                    |
 |                                      **Cabeza**                                                                      |
@@ -73,7 +73,7 @@ para un total de cuatro modelos.
 | *Largo*            |          30.0mm |          30.0mm |                       30.0mm |                       30.0mm |
 |                                      **Cuerpo**                                                                      |
 | *Diámetro*         |           5.0mm |           5.0mm |                        5.0mm |                        5.0mm |
-| *Largo*            |         100.0mm |         100.0mm |                      100.0mm |                      100.0mm |
+| *Largo*            |          95.0mm |          95.0mm |                       95.0mm |                       95.0mm |
 | *Punto de quiebre* |          80.0mm |          95.0mm |                       80.0mm |                       95.0mm |
 
 Todas estas dimensiones son fácilmente configurables.
@@ -121,7 +121,8 @@ Ver sección de [Configuración del Producto](#configuracion-del-producto).
 - Facilidad de producción: OpenSwab puede fabricarse con impresoras 3D de
   tecnología SLA comerciales accesibles como la Anycubic Photon o la Creality
   LD-002R. El largo del hisopo es compatible con la gran mayoría del área de
-  impresión de éstas impresoras.
+  impresión de éstas impresoras, que normalmente soportan un máximo de 150mm de
+  altura.
 
 
 ## Configuración del Producto

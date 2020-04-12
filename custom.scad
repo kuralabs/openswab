@@ -22,14 +22,14 @@ flex_d = 2.5;               // [1.0:0.1:5.0]
 /* [Body] */
 
 // Notch distance from the tip of the swab
-notch_d = 80.0;             // [5.0:1.0:15.0]
+notch_d = 95.0;             // [5.0:1.0:15.0]
 // Notch break percent (100% -> 1.0), amount of material to remove at the notch
 notch_b = 0.4;              // [0.1:0.01:0.9]
 // Notch height
 notch_h = 3.0;              // [1.0:0.1:5.0]
 
 // Body height, will be added to the flex, thus incrementing the total height
-body_h = 97.0;              // [8.0:1.0:140.0]
+body_h = 92.0;              // [8.0:1.0:140.0]
 // Body diameter
 body_d = 5.0;               // [1.0:1.0:15.0]
 

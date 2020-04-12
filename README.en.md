@@ -59,7 +59,7 @@ OpenSwab offers two models for the sample collection head, named "Bristle" y
 | ------------------- | --------------- | --------------- | ---------------------------- | ---------------------------- |
 | *Target audience*   | Adult           | Adult           | Adult                        | Adult                        |
 | *Use*               | Nasopharyngeal  | Nasopharyngeal  | Nasopharyngeal               | Nasopharyngeal               |
-| *Total height*      |         150.0mm |         150.0mm |                      150.0mm |                      150.0mm |
+| *Total height*      |         145.0mm |         145.0mm |                      145.0mm |                      145.0mm |
 | *Material*          | UV Resin 405nm  | UV Resin 405nm  | UV Resin 405nm               | UV Resin 405nm               |
 | *Sterilization*     | Autoclave       | Autoclave       | Autoclave                    | Autoclave                    |
 |                                       **Head**                                                                        |
@@ -74,8 +74,8 @@ OpenSwab offers two models for the sample collection head, named "Bristle" y
 | *Height*            |          30.0mm |          30.0mm |                       30.0mm |                       30.0mm |
 |                                       **Cuerpo**                                                                      |
 | *Diameter*          |           5.0mm |           5.0mm |                        5.0mm |                        5.0mm |
-| *Height*            |         100.0mm |         100.0mm |                      100.0mm |                      100.0mm |
-| *Braekpoint*        |          80.0mm |          95.0mm |                       80.0mm |                       95.0mm |
+| *Height*            |          95.0mm |          95.0mm |                       95.0mm |                       95.0mm |
+| *Breakpoint*        |          80.0mm |          95.0mm |                       80.0mm |                       95.0mm |
 
 All this dimension are easily configured.
 See [Product Configuration](#product-configuration) section.
@@ -119,7 +119,7 @@ See [Product Configuration](#product-configuration) section.
 - Ease of production: OpenSwab can be manufactured with affordable commercial
   SLA technology 3D printers such as the Anycubic Photon or Creality LD-002R.
   The length of the swab is compatible with the vast majority of these
-  printers' printing area.
+  printers' printing area, that usually support a maximum height of 150mm.
 
 
 ## Product Configuration

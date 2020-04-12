@@ -2,7 +2,7 @@
 
 ## About
 
-![OpenSwab](exports/swab-pyramid-95.png "OpenSwab")
+<img src="exports/renders/openswab-pyramid-95-vertical.png" align="right" width="150">
 
 Prototype of a Nasopharyngeal (NP) swab used to collect samples for COVID-19
 testing.
@@ -27,6 +27,7 @@ This prototype is currently being reviewed by health authorities along many
 other designs. Nevertheless, it hasn't been tested, validated or approved by
 any organization.
 
+<br clear="right"/>
 
 ## Product Features
 

@@ -52,27 +52,27 @@ para un total de cuatro modelos.
 <img src="doc/images/openswab-heads.png" align="center">
 
 
-| Modelo           | Bristle 80      | Bristle 95      | Pyramid 80                   | Pyramid 95                   |
-| ---------------- | --------------- | --------------- | ---------------------------- | ---------------------------- |
-| Público          | Adulto          | Adulto          | Adulto                       | Adulto                       |
-| Uso              | Nasofaringeal   | Nasofaringeal   | Nasofaringeal                | Nasofaringeal                |
-| Altura total     |         150.0mm |         150.0mm |                      150.0mm |                      150.0mm |
-| Material         | Resina UV 405nm | Resina UV 405nm | Resina UV 405nm              | Resina UV 405nm              |
-| Esterilización   | Autoclave       | Autoclave       | Autoclave                    | Autoclave                    |
-|                                      **Cabeza**                                                                    |
-| Textura          | Hojuela         | Hojuela         | Pirámide truncada            | Pirámide truncada            |
-| Patrón           | Helicoidal      | Helicoidal      | Helicoidal                   | Helicoidal                   |
-| Terminación      | Esférica        | Esférica        | Toroide con estrella convexa | Toroide con estrella convexa |
-| Diámetro interno |           2.0mm |           2.0mm |                        2.0mm |                        2.0mm |
-| Diámetro externo |           3.5mm |           3.5mm |                        3.5mm |                        3.5mm |
-| Largo            |          20.0mm |          20.0mm |                       20.0mm |                       20.0mm |
-|                                      **Cuello flexible**                                                           |
-| Diámetro         |           2.5mm |           2.5mm |                        2.5mm |                        2.5mm |
-| Largo            |          30.0mm |          30.0mm |                       30.0mm |                       30.0mm |
-|                                      **Cuerpo**                                                                    |
-| Diámetro         |           5.0mm |           5.0mm |                        5.0mm |                        5.0mm |
-| Largo            |         100.0mm |         100.0mm |                      100.0mm |                      100.0mm |
-| Punto de quiebre |          80.0mm |          95.0mm |                       80.0mm |                       95.0mm |
+| Modelo             | Bristle 80      | Bristle 95      | Pyramid 80                   | Pyramid 95                   |
+| ------------------ | --------------- | --------------- | ---------------------------- | ---------------------------- |
+| *Público meta*     | Adulto          | Adulto          | Adulto                       | Adulto                       |
+| *Uso*              | Nasofaringeal   | Nasofaringeal   | Nasofaringeal                | Nasofaringeal                |
+| *Altura total*     |         150.0mm |         150.0mm |                      150.0mm |                      150.0mm |
+| *Material*         | Resina UV 405nm | Resina UV 405nm | Resina UV 405nm              | Resina UV 405nm              |
+| *Esterilización*   | Autoclave       | Autoclave       | Autoclave                    | Autoclave                    |
+|                                      **Cabeza**                                                                      |
+| *Textura*          | Hojuela         | Hojuela         | Pirámide truncada            | Pirámide truncada            |
+| *Patrón*           | Helicoidal      | Helicoidal      | Helicoidal                   | Helicoidal                   |
+| *Terminación*      | Esférica        | Esférica        | Toroide con estrella convexa | Toroide con estrella convexa |
+| *Diámetro interno* |           2.0mm |           2.0mm |                        2.0mm |                        2.0mm |
+| *Diámetro externo* |           3.5mm |           3.5mm |                        3.5mm |                        3.5mm |
+| *Largo*            |          20.0mm |          20.0mm |                       20.0mm |                       20.0mm |
+|                                      **Cuello flexible**                                                             |
+| *Diámetro*         |           2.5mm |           2.5mm |                        2.5mm |                        2.5mm |
+| *Largo*            |          30.0mm |          30.0mm |                       30.0mm |                       30.0mm |
+|                                      **Cuerpo**                                                                      |
+| *Diámetro*         |           5.0mm |           5.0mm |                        5.0mm |                        5.0mm |
+| *Largo*            |         100.0mm |         100.0mm |                      100.0mm |                      100.0mm |
+| *Punto de quiebre* |          80.0mm |          95.0mm |                       80.0mm |                       95.0mm |
 
 Todas estas dimensiones son fácilmente configurables.
 Ver sección de [Configuración del Producto](#configuracion-del-producto).

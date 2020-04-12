@@ -105,8 +105,8 @@ Ver sección de [Configuración del Producto](#configuracion-del-producto).
 - Diseño anatómico: Hisopo diseñado con un cuello delgado y flexible que se
   adapta a las fosas nasales del paciente por lo que se reduce el malestar y
   facilita el posicionamiento de la cabeza en el lugar adecuado por parte del
-  personal médico. Además, cuenta con una cabeza delgada que permite la
-  eficiente recoleción del material biológico para la prueba.
+  personal médico. La cabeza cuenta además con un patrón helicoidal que
+  facilita la introducción, el retiro y la acción giratoria propia del frotis.
 
 - Diseño ergonómico: Pensado en un diámetro y largo adecuado para su
   manipulación por parte del personal encargado de la prueba.

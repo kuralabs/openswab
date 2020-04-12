@@ -6,7 +6,7 @@
 
 ## Descripción
 
-<img src="exports/renders/openswab-pyramid-95-vertical.png" align="right" width="150">
+<img src="exports/renders/openswab-pyramid-95-vertical.png" align="right" width="150" alt="OpenSwab Render">
 
 OpenSwab es un prototipo de hisopo nasofaringeal (NP) diseñado para recolectar
 muestras y realizar pruebas de COVID-19.
@@ -49,7 +49,9 @@ OpenSwab ofrece dos versiones de cabeza para la recolección de muestras,
 denominadas "Bristle" y "Pyramid", así como dos variantes del punto de quiebre,
 para un total de cuatro modelos.
 
-<img src="doc/images/openswab-heads.png" align="center">
+<p align="center">
+    <img src="doc/images/openswab-heads.png" alt="OpenSwab Heads">
+</p>
 
 
 | Modelo             | Bristle 80      | Bristle 95      | Pyramid 80                   | Pyramid 95                   |
@@ -133,7 +135,9 @@ extensión `.scad`. El archivo principal es [`custom.scad`](custom.scad) y al
 abrirlo se pueden modificar todos los parámetros del mismo fácilmente desde la
 ventana del customizador.
 
-<img src="doc/images/customizer.png" align="center">
+<p align="center">
+    <img src="doc/images/customizer.png" alt="OpenSwab in OpenSCAD Customizer">
+</p>
 
 
 ## Referencias

@@ -142,8 +142,8 @@ Photon son de:
 
 Los archivos `exports/openswab-*.stl` contienen las versiones exportadas de los
 modelos 3D en formato STL listos para ser impresos. El archivo
-`exports/openswab-all-models.stl` contiene un arreglo con las 4 versiones de
-OpenSwab en caso de ser requerido.
+[`exports/openswab-all-models.stl`](exports/openswab-all-models.stl) contiene
+un arreglo con las 4 versiones de OpenSwab en caso de ser requerido.
 
 
 ## Configuración del Producto

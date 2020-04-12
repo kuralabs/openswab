@@ -137,7 +137,8 @@ The *estimates* of manufacturing an OpenSwabs batch on an Anycubic Photon are:
 </p>
 
 The `exports/openswab-*.stl` files contain the exported versions of 3D models
-in STL format ready to be printed. The `exports/openswab-all-models.stl` file
+in STL format ready to be printed. The
+[`exports/openswab-all-models.stl`](exports/openswab-all-models.stl) file
 contains a grid with all 4 versions of OpenSwab if required.
 
 

@@ -126,11 +126,11 @@ See [Product Configuration](#product-configuration) section.
 
 The *estimates* of manufacturing an OpenSwabs batch on an Anycubic Photon are:
 
-- Printing bed size: **120 × 68 × 150mm**.
-- Batch size: **6x11**.
-- Swab yield: **66**.
-- Resin required: **146ml**.
-- Printing time: **12h43m14s**.
+- **Printing bed size:** *120 × 68 × 150mm*.
+- **Batch size:** *6x11*.
+- **Swab yield:** *66*.
+- **Resin required:** *146ml*.
+- **Printing time:** *12h43m14s*.
 
 <p align="center">
     <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">

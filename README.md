@@ -11,7 +11,7 @@
 OpenSwab es un prototipo de hisopo nasofaringeal (NP) diseñado para recolectar
 muestras y realizar pruebas de COVID-19.
 
-Es un hisopo fino y flexible, el cuál es insertado en la cavidad nasal de forma
+Es un hisopo fino y flexible, el cual es insertado en la cavidad nasal de forma
 paralela a la parte inferior de la fosa nasal hasta que la cabeza del hisopo
 toque la pared de la nasofaringe. Al llegar a la pared, se procede a realizar
 pequeñas rotaciones de forma que la cabeza del hisopo recolecte el material
@@ -130,11 +130,11 @@ Ver sección de [Configuración del Producto](#configuracion-del-producto).
 Las *estimaciones* de fabricación de un lote de OpenSwabs en una Anycubic
 Photon son de:
 
-- Tamaño de cama de impresión: **120 × 68 × 150mm**.
-- Tamaño del lote: **6x11**.
-- Cantidad de hisopos producidos: **66**.
-- Recina requerida: **146ml**.
-- Tiempo de impresión: **12h43m14s**.
+- **Tamaño de cama de impresión:** *120 × 68 × 150mm*.
+- **Tamaño del lote:** *6x11*.
+- **Cantidad de hisopos producidos:** *66*.
+- **Recina requerida:** *146ml*.
+- **Tiempo de impresión:** *12h43m14s*.
 
 <p align="center">
     <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">

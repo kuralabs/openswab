@@ -124,8 +124,7 @@ See [Product Configuration](#product-configuration) section.
 
 ## Fabrication
 
-Las *estimaciones* de fabricación de un lote de OpenSwabs en una Anycubic
-Photon son de:
+The *estimates* of manufacturing an OpenSwabs batch on an Anycubic Photon are:
 
 - Printing bed size: **120 × 68 × 150mm**.
 - Batch size: **6x11**.

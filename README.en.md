@@ -122,6 +122,26 @@ See [Product Configuration](#product-configuration) section.
   printers' printing area, that usually support a maximum height of 150mm.
 
 
+## Fabrication
+
+Las *estimaciones* de fabricación de un lote de OpenSwabs en una Anycubic
+Photon son de:
+
+- Printing bed size: **120 × 68 × 150mm**.
+- Batch size: **6x11**.
+- Swab yield: **66**.
+- Resin required: **146ml**.
+- Printing time: **12h43m14s**.
+
+<p align="center">
+    <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">
+</p>
+
+The `exports/openswab-*.stl` files contain the exported versions of 3D models
+in STL format ready to be printed. The `exports/openswab-all-models.stl` file
+contains a grid with all 4 versions of OpenSwab if required.
+
+
 ## Product Configuration
 
 OpenSwab was designed in its entirety using Free Software

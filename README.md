@@ -125,6 +125,27 @@ Ver sección de [Configuración del Producto](#configuracion-del-producto).
   altura.
 
 
+## Fabricación
+
+Las *estimaciones* de fabricación de un lote de OpenSwabs en una Anycubic
+Photon son de:
+
+- Tamaño de cama de impresión: **120 × 68 × 150mm**.
+- Tamaño del lote: **6x11**.
+- Cantidad de hisopos producidos: **66**.
+- Recina requerida: **146ml**.
+- Tiempo de impresión: **12h43m14s**.
+
+<p align="center">
+    <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">
+</p>
+
+Los archivos `exports/openswab-*.stl` contienen las versiones exportadas de los
+modelos 3D en formato STL listos para ser impresos. El archivo
+`exports/openswab-all-models.stl` contiene un arreglo con las 4 versiones de
+OpenSwab en caso de ser requerido.
+
+
 ## Configuración del Producto
 
 OpenSwab fue diseñado en su totalidad utilizando el Software Libre

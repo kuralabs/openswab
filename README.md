@@ -31,10 +31,10 @@ protección personal y otros suministros médicos, incluidos los hisopos de
 prueba. Este hisopo fue diseñado y creado en un esfuerzo por proporcionar una
 posible solución a este problema.
 
-La propiedad intelectual de este diseño se encuentra bajo una licencia CC BY-SA
-por lo que puede ser utilizado, producido, modificado y comercializado
-libremente. Puede referirse a la sección de licencia o contactar al equipo de
-OpenSwab para más información.
+La propiedad intelectual de este diseño se encuentra bajo una licencia
+[CC BY-SA 4.0][cc-by-sa] por lo que puede ser utilizado, producido, modificado
+y comercializado libremente. Puede referirse a la sección de licencia o
+contactar al equipo de OpenSwab para más información.
 
 Actualmente este prototipo está siendo revisado por autoridades de salud junto
 con otros diseños. Sin embargo, no ha sido probado, validado o aprobado por
@@ -143,22 +143,22 @@ ventana del customizador.
 ## Referencias
 
 - Interim Guidelines for Collecting, Handling, and Testing Clinical Specimens
-from Persons for Coronavirus Disease 2019 (COVID-19) (10 de abril de 2020).
-https://www.cdc.gov/coronavirus/2019-nCoV/lab/guidelines-clinical-specimens.html
+  from Persons for Coronavirus Disease 2019 (COVID-19) (10 de abril de 2020).
+  https://www.cdc.gov/coronavirus/2019-nCoV/lab/guidelines-clinical-specimens.html
 
 - Centers for Disease Control and Prevention (CDC) Pertussis Testing Video:
-Collecting a Nasopharyngeal Swab Clinical Specimen (10 de abril de 2020).
-https://youtu.be/zqX56LGItgQ
+  Collecting a Nasopharyngeal Swab Clinical Specimen (10 de abril de 2020).
+  https://youtu.be/zqX56LGItgQ
 
 - How to Collect Nasopharyngeal Samples for Flu Testing (Dr. Bonner Series)
-(10 de abril de 2020). https://youtu.be/v5A4H9q4JVA
+  (10 de abril de 2020). https://youtu.be/v5A4H9q4JVA
 
 - NETEC: COVID-19 Laboratory Specimen Collection: Nasopharyngeal Swab - Flyer
-and Validation Checklist (10 de abril de 2020).
-https://repository.netecweb.org/items/show/894
+  and Validation Checklist (10 de abril de 2020).
+  https://repository.netecweb.org/items/show/894
 
 - NETEC: COVID-19 Laboratory Specimen Collection: Nasopharyngeal Swab
-(10 de abril de 2020). https://repository.netecweb.org/items/show/840
+  (10 de abril de 2020). https://repository.netecweb.org/items/show/840
 
 
 ## Licencia

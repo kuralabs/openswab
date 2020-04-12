@@ -64,4 +64,4 @@ module pyramid_head(
 }
 
 
-pyramid_head($fn=100);
+pyramid_head($fn=40);

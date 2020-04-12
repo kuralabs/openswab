@@ -56,4 +56,4 @@ module body(
 }
 
 
-body($fn=100);
+body($fn=40);

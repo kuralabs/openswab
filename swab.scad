@@ -72,4 +72,4 @@ module swab(
 }
 
 
-swab($fn=100, head_type="bristle");
+swab($fn=40, head_type="bristle");

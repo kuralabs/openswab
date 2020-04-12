@@ -34,9 +34,13 @@ module bristle_head(
                 thickness=0.5,
                 width=1,
                 ratio=0.8
+                // Rendering fine tunning
+                //$fn=5,
+                //$fa=4,
+                //$fs=0.06
             );
     };
 }
 
 
-bristle_head($fn=100);
+bristle_head($fn=24);

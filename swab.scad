@@ -11,7 +11,7 @@ module swab(
     // Head external diameter
     head_external_d=2.0,
     // Internal head diameter
-    head_internal_d=0.5,
+    head_internal_d=0.75,
     // Head type. Available "bristle" and "pyramid"
     head_type="bristle",
 

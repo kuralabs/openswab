@@ -6,7 +6,7 @@
 
 ## Descripción
 
-<img src="doc/images/openswabs.png" align="right" width="150" alt="OpenSwab Render">
+<img src="doc/images/openswabs-standing.png" align="right" width="190" alt="OpenSwab Render">
 
 OpenSwab es un prototipo de hisopo nasofaringeal (NP) diseñado para recolectar
 muestras y realizar pruebas de COVID-19.

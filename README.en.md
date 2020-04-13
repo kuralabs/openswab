@@ -6,7 +6,7 @@
 
 ## About
 
-<img src="doc/images/openswabs.png" align="right" width="150" alt="OpenSwab Render">
+<img src="doc/images/openswabs-standing.png" align="right" width="190" alt="OpenSwab Render">
 
 OpenSwab is a prototype of a Nasopharyngeal (NP) swab used to collect samples
 for COVID-19 testing.

@@ -6,9 +6,9 @@ use <swab.scad>;
 // Head height
 head_h = 20.0;              // [1.0:1.0:50.0]
 // Head external diameter
-head_external_d = 3.5;      // [1.0:0.1:5.0]
+head_external_d = 2.0;      // [1.0:0.1:5.0]
 // Internal head diameter
-head_internal_d = 2.0;      // [1.0:0.1:5.0]
+head_internal_d = 0.5;      // [1.0:0.1:5.0]
 // Head type.
 head_type = "bristle";      // ["bristle", "pyramid", "none"]
 
@@ -17,7 +17,7 @@ head_type = "bristle";      // ["bristle", "pyramid", "none"]
 // Flex height, will be placed after the head, thus incrementing the total height
 flex_h = 30.0;              // [1.0:1.0:50.0]
 // Flex diameter
-flex_d = 2.5;               // [1.0:0.1:5.0]
+flex_d = 1.25;               // [1.0:0.1:5.0]
 
 /* [Body] */
 
@@ -31,12 +31,12 @@ notch_h = 3.0;              // [1.0:0.1:5.0]
 // Body height, will be added to the flex, thus incrementing the total height
 body_h = 92.0;              // [8.0:1.0:140.0]
 // Body diameter
-body_d = 5.0;               // [1.0:1.0:15.0]
+body_d = 2.5;               // [1.0:1.0:15.0]
 
 // Base height, will be added to the body, thus incrementing the total height
 base_h = 3.0;               // [0.0:0.1:140.0]
 // Base diameter
-base_d = 8.0;               // [1.0:1.0:15.0]
+base_d = 4.0;               // [1.0:1.0:15.0]
 
 /* [Global] */
 

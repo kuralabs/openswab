@@ -65,14 +65,14 @@ para un total de cuatro modelos.
 | *Textura*          | Hojuela         | Hojuela         | Pirámide truncada            | Pirámide truncada            |
 | *Patrón*           | Helicoidal      | Helicoidal      | Helicoidal                   | Helicoidal                   |
 | *Terminación*      | Esférica        | Esférica        | Toroide con estrella convexa | Toroide con estrella convexa |
-| *Diámetro interno* |           2.0mm |           2.0mm |                        2.0mm |                        2.0mm |
-| *Diámetro externo* |           3.5mm |           3.5mm |                        3.5mm |                        3.5mm |
+| *Diámetro interno* |          0.75mm |          0.75mm |                       0.75mm |                       0.75mm |
+| *Diámetro externo* |           2.0mm |           2.0mm |                        2.0mm |                        2.0mm |
 | *Largo*            |          20.0mm |          20.0mm |                       20.0mm |                       20.0mm |
 |                                      **Cuello flexible**                                                             |
-| *Diámetro*         |           2.5mm |           2.5mm |                        2.5mm |                        2.5mm |
+| *Diámetro*         |          1.25mm |          1.25mm |                       1.25mm |                       1.25mm |
 | *Largo*            |          30.0mm |          30.0mm |                       30.0mm |                       30.0mm |
 |                                      **Cuerpo**                                                                      |
-| *Diámetro*         |           5.0mm |           5.0mm |                        5.0mm |                        5.0mm |
+| *Diámetro*         |           2.5mm |           2.5mm |                        2.5mm |                        2.5mm |
 | *Largo*            |          95.0mm |          95.0mm |                       95.0mm |                       95.0mm |
 | *Punto de quiebre* |          80.0mm |          95.0mm |                       80.0mm |                       95.0mm |
 

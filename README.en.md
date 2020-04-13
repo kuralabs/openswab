@@ -66,14 +66,14 @@ OpenSwab offers two models for the sample collection head, named "Bristle" y
 | *Texture*           | Flake           | Flake           | Truncated pyramid            | Truncated pyramid            |
 | *Pattern*           | Helicoidal      | Helicoidal      | Helicoidal                   | Helicoidal                   |
 | *End*               | Spherical       | Spherical       | Toroid with convex star      | Toroid with convex star      |
-| *Internal diameter* |           2.0mm |           2.0mm |                        2.0mm |                        2.0mm |
-| *External diameter* |           3.5mm |           3.5mm |                        3.5mm |                        3.5mm |
+| *Internal diameter* |          0.75mm |          0.75mm |                       0.75mm |                       0.75mm |
+| *External diameter* |           2.0mm |           2.0mm |                        2.0mm |                        2.0mm |
 | *Height*            |          20.0mm |          20.0mm |                       20.0mm |                       20.0mm |
-|                                       **Cuello flexible**                                                             |
-| *Diameter*          |           2.5mm |           2.5mm |                        2.5mm |                        2.5mm |
+|                                       **Neck**                                                                        |
+| *Diameter*          |          1.25mm |          1.25mm |                       1.25mm |                       1.25mm |
 | *Height*            |          30.0mm |          30.0mm |                       30.0mm |                       30.0mm |
-|                                       **Cuerpo**                                                                      |
-| *Diameter*          |           5.0mm |           5.0mm |                        5.0mm |                        5.0mm |
+|                                       **Body**                                                                        |
+| *Diameter*          |           2.5mm |           2.5mm |                        2.5mm |                        2.5mm |
 | *Height*            |          95.0mm |          95.0mm |                       95.0mm |                       95.0mm |
 | *Breakpoint*        |          80.0mm |          95.0mm |                       80.0mm |                       95.0mm |
 

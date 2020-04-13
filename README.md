@@ -4,6 +4,8 @@
 
 [English Version](README.en.md)
 
+[Versión en PDF](doc/OpenSwab-Rev-2-KuraLabs.pdf)
+
 ## Descargo de responsabilidad
 
 OpenSwab fue construido, diseñado y puesto a disposición en el contexto de una

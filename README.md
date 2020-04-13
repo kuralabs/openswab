@@ -36,10 +36,6 @@ La propiedad intelectual de este diseño se encuentra bajo una licencia
 y comercializado libremente. Puede referirse a la sección de licencia o
 contactar al equipo de OpenSwab para más información.
 
-Actualmente este prototipo está siendo revisado por autoridades de salud junto
-con otros diseños. Sin embargo, no ha sido probado, validado o aprobado por
-ninguna organización.
-
 <br clear="right"/>
 
 
@@ -82,18 +78,14 @@ Ver sección de [Configuración del Producto](#configuracion-del-producto).
 
 ## Características del Producto
 
-- Punto de Quiebre: El hisopo cuenta con un punto de quiebre que funciona como
-  guía visual para indicarle al personal médico la distancia máxima promedio
-  (80mm) hasta donde se debe introducir el hisopo para alcanzar la pared de la
-  nasofaringe en adultos.
+- Punto de Quiebre: Al finalizar la toma de la muestra, el punto de quiebre
+  permite separar la parte del hisopo que se encarga de la recolección del
+  material biológico para así almacenarla en el tubo de muestra.
 
-  El personal médico debe evitar manipular el hisopo pasando del punto de
-  quiebre, tanto para evitar la contaminación de la muestra como para prevenir
-  cualquier tipo de exposición.
-
-  Al finalizar la toma de la muestra, el punto de quiebre permite separar
-  la parte del hisopo que se encarga de la recolección del material biológico
-  para así almacenarla en el tubo de muestra.
+  El punto de quiebre también funciona como guía visual para indicarle al
+  personal médico que debe evitar manipular el hisopo pasando el mismo, tanto
+  para evitar la contaminación de la muestra como para prevenir cualquier tipo
+  de exposición.
 
 - Material de Construcción: Los hisopos utilizados para pruebas COVID-19 no
   pueden estar hechos de materiales como algodón o madera, ya que los mismos

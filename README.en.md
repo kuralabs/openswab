@@ -38,10 +38,6 @@ international license, so it can be used, manufactured, reproduced, modified
 and commercialized freely. You can refer to the license section or contact the
 OpenSwab team for more information.
 
-This prototype is currently being reviewed by health authorities along many
-other designs. Nevertheless, it hasn't been tested, validated or approved by
-any organization.
-
 <br clear="right"/>
 
 
@@ -83,17 +79,13 @@ See [Product Configuration](#product-configuration) section.
 
 ## Product Features
 
-- Break Point: The swab has a break point that works as a visual guide to
-  indicate to medical personnel the maximum average distance (80mm) to which
-  the swab must be inserted to reach the nasopharyngeal wall in adults.
+- Break Point: At the end of the sample collection, the break point allows
+  separating the part of the swab that is in charge of collecting the
+  biological material to store it in the sample tube.
 
-  Medical personnel should avoid handling the swab beyond the breaking point,
-  both to avoid contamination of the sample and to prevent any type of
-  exposure.
-
-  At the end of the sample collection, the break point allows separating the
-  part of the swab that is in charge of collecting the biological material to
-  store it in the sample tube.
+  The break point also works as a visual guide to indicate to medical personnel
+  that they should avoid handling the swab beyond that point, both to avoid
+  contamination of the sample and to prevent any type of exposure.
 
 - Construction Material: The swabs used for COVID-19 tests cannot be made of
   materials such as cotton or wood, since they affect the RNA

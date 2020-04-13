@@ -5,26 +5,26 @@ module pyramid_head(
     // Head height
     head_h=20.0,
     // Head external diameter
-    head_external_d=3.5,
+    head_external_d=2.0,
     // Internal head diameter
-    head_internal_d=2.0,
+    head_internal_d=0.75,
 
     // Tip tunning
-    tip_groove_h=0.6,
-    tip_scale=0.9,
+    tip_groove_h=0.4,
+    tip_scale=0.5999,
 
     // Pyramid tunning
-    pyramid_start=0.7,
+    pyramid_start=0.4,
     piramid_top_ratio=0.5,
-    piramid_botton_ratio=0.8,
+    piramid_botton_ratio=0.9,
     piramid_angular_rotation=20,
 
     // Spiral tunning
-    z_step=0.18,
-    step_correction=-8,
+    z_step=0.13,
+    step_correction=-6,
     angle_step=66,
     scale_step=-0.1,
-    scale_correction=-11
+    scale_correction=-10.5
 ) {
 
     head_r = head_external_d / 2;
@@ -58,7 +58,7 @@ module pyramid_head(
                         );
             };
         }
-        translate([0, 0, tip_start + tip_ratio / 2 + .01]) rotate([0, 180, 0])
+        translate([0, 0, tip_start + tip_ratio / 2 + 0.01]) rotate([0, 180, 0])
             starburst(r1=head_r, r2=stem_r, n=6, height=tip_groove_h);
     }
 }

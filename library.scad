@@ -10,11 +10,11 @@ module starburst(r1=10, r2=5, n=6, height=5) {
     p3 = [0, 0, height];
 
     module half_burst() {
-        polyhedron(points = [p0, p1, p2, p3], 
+        polyhedron(points = [p0, p1, p2, p3],
             faces = [
                 [0, 2, 1],
                 [0, 1, 3],
-                [0, 3, 2], 
+                [0, 3, 2],
                 [2, 1, 3]
             ]
         );
@@ -67,7 +67,7 @@ module spiral(step_max=100, z_step=0.1, angle_step=5, scale_step=-0.01, scale_st
 /**
  * Generate a hollow oval shape.
  */
-module oval_bristle(extension=3.5, thickness=0.5, width=1, ratio=0.8) {
+module oval_bristle(extension=2.0, thickness=0.5, width=1, ratio=0.8) {
     render() {
         difference() {
             scale([extension, width, thickness])

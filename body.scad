@@ -4,6 +4,8 @@ use <library.scad>;
 module body(
     // Head height
     head_h=20.0,
+    // Head diameter
+    head_d=0.5,
 
     // Flex height, will be placed after the head, thus incrementing the total height
     flex_h=30.0,
@@ -30,6 +32,10 @@ module body(
     total_height = head_h + flex_h + body_h + base_h;
 
     render() {
+        // Transition smoother
+        translate([0, 0, base_h + body_h + flex_h])
+            smoother(flex_d, head_d);
+
         // Flex
         translate([0, 0, base_h + body_h])
             cylinder(h=flex_h, d=flex_d);

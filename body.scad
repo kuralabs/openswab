@@ -8,7 +8,7 @@ module body(
     // Flex height, will be placed after the head, thus incrementing the total height
     flex_h=30.0,
     // Flex diameter
-    flex_d=2.5,
+    flex_d=1.25,
 
     // Notch distance from the tip of the swab
     notch_d=95.0,
@@ -20,17 +20,16 @@ module body(
     // Body height, will be added to the flex, thus incrementing the total height
     body_h=92.0,
     // Body diameter
-    body_d=5.0,
+    body_d=2.5,
 
     // Base height, will be added to the body, thus incrementing the total height
     base_h=3.0,
     // Base diameter
-    base_d=8.0,
+    base_d=4.0,
 ) {
     total_height = head_h + flex_h + body_h + base_h;
 
     render() {
-
         // Flex
         translate([0, 0, base_h + body_h])
             cylinder(h=flex_h, d=flex_d);

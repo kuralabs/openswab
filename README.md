@@ -127,23 +127,33 @@ Ver sección de [Configuración del Producto](#configuracion-del-producto).
 
 ## Fabricación
 
-Las *estimaciones* de fabricación de un lote de OpenSwabs en una Anycubic
-Photon son de:
-
-- **Tamaño de cama de impresión:** *120 × 68 × 150mm*.
-- **Tamaño del lote:** *6x11*.
-- **Cantidad de hisopos producidos:** *66*.
-- **Recina requerida:** *146ml*.
-- **Tiempo de impresión:** *12h43m14s*.
-
-<p align="center">
-    <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">
-</p>
-
 Los archivos `exports/openswab-*.stl` contienen las versiones exportadas de los
 modelos 3D en formato STL listos para ser impresos. El archivo
 [`exports/openswab-all-models.stl`](exports/openswab-all-models.stl) contiene
 un arreglo con las 4 versiones de OpenSwab en caso de ser requerido.
+
+Las *estimaciones* de fabricación de un lote de OpenSwabs en diferentes
+impresoras 3D se listan a continuación:
+
+### Creality LD-002R
+
+- **Tamaño de cama de impresión:** *120 x 68 x 160mm*.
+- **Tamaño del lote:** *18x10*.
+- **Cantidad de hisopos producidos:** *180*.
+- **Recina requerida:** *96.7ml*.
+- **Tiempo de impresión:** *13h0m54s*.
+
+### Anycubic Photon
+
+- **Tamaño de cama de impresión:** *120 × 68 × 150mm*.
+- **Tamaño del lote:** *18x10*.
+- **Cantidad de hisopos producidos:** *180*.
+- **Recina requerida:** *96.7ml*.
+- **Tiempo de impresión:** *12h6m50s*.
+
+<p align="center">
+    <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">
+</p>
 
 
 ## Configuración del Producto

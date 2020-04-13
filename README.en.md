@@ -124,22 +124,33 @@ See [Product Configuration](#product-configuration) section.
 
 ## Fabrication
 
-The *estimates* of manufacturing an OpenSwabs batch on an Anycubic Photon are:
-
-- **Printing bed size:** *120 × 68 × 150mm*.
-- **Batch size:** *6x11*.
-- **Swab yield:** *66*.
-- **Resin required:** *146ml*.
-- **Printing time:** *12h43m14s*.
-
-<p align="center">
-    <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">
-</p>
-
 The `exports/openswab-*.stl` files contain the exported versions of 3D models
 in STL format ready to be printed. The
 [`exports/openswab-all-models.stl`](exports/openswab-all-models.stl) file
 contains a grid with all 4 versions of OpenSwab if required.
+
+The following are the *estimates* for manufacturing a batch of OpenSwabs on
+some 3D printers:
+
+### Creality LD-002R
+
+- **Printing bed size:** *120 x 68 x 160mm*.
+- **Batch size:** *18x10*.
+- **Swab yield:** *180*.
+- **Resin required:** *96.7ml*.
+- **Printing time:** *13h0m54s*.
+
+### Anycubic Photon
+
+- **Printing bed size:** *120 × 68 × 150mm*.
+- **Batch size:** *18x10*.
+- **Swab yield:** *180*.
+- **Resin required:** *96.7ml*.
+- **Printing time:** *12h6m50s*.
+
+<p align="center">
+    <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">
+</p>
 
 
 ## Product Configuration

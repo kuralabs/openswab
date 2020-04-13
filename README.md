@@ -4,6 +4,35 @@
 
 [English Version](README.en.md)
 
+## Descargo de responsabilidad
+
+OpenSwab fue construido, diseñado y puesto a disposición en el contexto de una
+escasez global de suministros y equipos para combatir la crisis de salud
+pública causada por la enfermedad por Coronavirus (COVID-19). Este diseño,
+junto con muchos otros, está siendo revisado actualmente por las autoridades
+sanitarias y está siendo sometido a ensayos clínicos.
+
+**SIN EMBARGO, NO HA SIDO PROBADO, VALIDADO O APROBADO TOTALMENTE POR NINGUNA
+ORGANIZACIÓN. POR LO TANTO, DEBE SER CONSIDERADO UN PROTOTIPO.**
+
+KuraLabs S.R.L comparte estos diseños en buena voluntad con la comunidad global
+en un momento de crisis con el fin de enfrentar las brechas en la respuesta
+regional y ofrecer un método alternativo para producir hisopos de prueba
+necesarios utilizados para probar casos sospechosos de COVID-19 que están
+siendo requeridos con urgencia. En consecuencia, KuraLabs S.R.L no asume
+**NINGUNA RESPONSABILIDAD** por las lesiones o daños directos, indirectos o
+incidentales sufridos como resultado del uso, mal uso o dependencia de estos
+hisopos de prueba y/o de la información y el contenido de este sitio web.
+
+La principal prioridad para KuraLabs S.R.L es el bienestar de los pacientes. En
+consecuencia, es responsabilidad de quien quiera utilizar OpenSwab de enviarlo
+para su aprobación, revisión y ensayos clínicos respectivos con el fin de
+obtener una licencia, autorización o aprobación por parte de su autoridad
+reguladora local antes de usar estos hisopos en el contexto médico. Al decidir
+voluntariamente usar y/o producir los diseños de OpenSwab, usted asume el
+riesgo de cualquier lesión resultante. **ÚSELO BAJO SU PROPIO RIESGO**.
+
+
 ## Descripción
 
 <img src="doc/images/openswabs-standing.png" align="right" width="190" alt="OpenSwab Render">
@@ -28,8 +57,8 @@ resistente al calor para su posterior esterilización en un autoclave.
 
 Al momento de escribir este artículo, existe una escasez global de equipo de
 protección personal y otros suministros médicos, incluidos los hisopos de
-prueba. Este hisopo fue diseñado y creado en un esfuerzo por proporcionar una
-posible solución a este problema.
+prueba. Estos hisopos fueron diseñados y creados en un esfuerzo por
+proporcionar una posible solución alternativa a este problema.
 
 La propiedad intelectual de este diseño se encuentra bajo una licencia
 [CC BY-SA 4.0][cc-by-sa] por lo que puede ser utilizado, producido, modificado
@@ -199,8 +228,35 @@ OpenSwab fue diseñado en su totalidad utilizando el Software Libre
 [OpenSCAD](https://www.openscad.org/), por lo que para su impresión y
 modificación no se requiere de la adquisición de licencias de Software de pago.
 
-OpenSwab fue diseñado desde cero en Costa Rica utilizando criterios médicos
-conocidos y en práctica.
+KuraLabs S.R.L se reserva el derecho de presentar y solicitar una patente para
+cualquier diseño, algoritmo, forma o característica patentable que esté
+presente o se derive de la Propiedad Intelectual (PI) presentada como parte de
+OpenSwab. Si se concede, si corresponde, KuraLabs S.R.L garantiza que
+**NO UTILIZARÁ** su derecho de hacer cumplir tales patentes o solicitar
+licencias a cualquier persona o empresa que utilice cualquier PI de OpenSwab en
+cualquier contexto, incluido el uso comercial. Además, KuraLabs S.R.L
+presentaría dichas patentes a un repositorio de patentes defensivas con el
+objetivo final de mejorar el acceso a la PI médica en los países en desarrollo
+y ayudar a construir una robusta colección de arte previo para proteger el uso
+de estos dispositivos.
+
+En este contexto, KuraLabs SRL se une a la iniciativa propuesta por el
+Presidente de Costa Rica, el Presidente Carlos Alvarado, y el Ministro de
+Salud, Daniel Salas, plasmada en una carta enviada el 23 de marzo de
+2020[[1]][presidencia-cr] a la Organización Mundial de la Salud (OMS) para
+crear un repositorio de propiedad intelectual de tecnologías para la detección,
+prevención, control y tratamiento de la pandemia del COVID-19 con el fin de
+proporcionar acceso gratuito o licencias en términos razonables y accesibles
+para todos los países. Dicha propuesta fue apoyada posteriormente por la OMS,
+como lo declaró su Director General Tedros Adhanom Ghebreyesus en la
+conferencia de prensa del 6 de abril de 2020 "Muchas gracias, señor Presidente.
+Apoyo esta propuesta, y estamos trabajando con Costa Rica para finalizar los
+detalles. [...] Pido a todos los países, empresas e instituciones de
+investigación que apoyen los datos abiertos, la ciencia abierta y la
+colaboración abierta para que todas las personas puedan disfrutar de los
+beneficios de la ciencia y la investigación".[[2]][who-briefing]
+
+OpenSwab fue diseñado desde cero en Costa Rica.
 
 ```
 Copyright (C) 2020 KuraLabs S.R.L
@@ -223,3 +279,5 @@ Licenciado bajo estos términos y condiciones.
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+[presidencia-cr]: https://www.presidencia.go.cr/comunicados/2020/03/costa-rica-submits-proposal-for-who-to-facilitate-access-to-technologies-to-combat-covid-19/
+[who-briefing]: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---6-april-2020

@@ -4,6 +4,33 @@
 
 [Spanish Version](README.md)
 
+## DISCLAIMER
+
+OpenSwab was built, designed and made available in the context of a global
+shortage of supplies and equipment to fight the global Coronavirus disease
+(COVID-19) public health crisis. This design, along many others, is currently
+being reviewed by health authorities and undergoing clinical trials.
+
+**NEVERTHELESS, IT HASN'T BEEN FULLY TESTED, VALIDATED OR APPROVED BY ANY
+ORGANIZATION. THUS, IT SHOULD BE CONSIDERED A PROTOTYPE.**
+
+KuraLabs S.R.L is sharing these designs in goodwill with the global community
+in a time of crisis to address critical gaps in the regional response and offer
+an alternative method for producing urgently needed test swabs used for testing
+suspected COVID-19 cases. In Consequence, KuraLabs S.R.L assumes or undertakes
+**NO LIABILITY** for any direct, indirect or incidental injuries or damages
+suffered as a result of the use, misuse or reliance on these test swabs and/or
+the information and content on this website.
+
+The main priority for KuraLabs S.R.L is the wellbeing of the patients. In
+consequence, it is your responsibility to submit OpenSwab to the respective
+approval, review and clinical trials in order to secure a license, obtain
+authorization, clearance or approval from your local regulatory authority prior
+the use of these swabs in medical context. By voluntarily deciding to use
+and/or produce the OpenSwab designs, you assume the risk of any resulting
+injury. **USE AT YOUR OWN RISK**.
+
+
 ## About
 
 <img src="doc/images/openswabs-standing.png" align="right" width="190" alt="OpenSwab Render">
@@ -29,9 +56,9 @@ Class I (short-term use) ultra-violet (UV) curing resin for subsequent
 sterilization in an autoclave.
 
 At the time of this writing there is a global shortage of personal protection
-equipment (PPE) and other medical supplies, including testing swabs. This swab
-was designed and created in a effort to provide a possible solution to this
-problem.
+equipment (PPE) and other medical supplies, including testing swabs. These
+swabs were designed and created in a effort to provide a possible alternative
+solution to this problem.
 
 The intellectual property of this design is under a [CC BY-SA 4.0][cc-by-sa]
 international license, so it can be used, manufactured, reproduced, modified
@@ -195,8 +222,36 @@ OpenSwab was designed in its entirety using Free Software
 [OpenSCAD](https://www.openscad.org/), so the acquisition of paid Software
 licenses is not required for printing and modification.
 
-OpenSwab was designed from scratch in Costa Rica using known and practical
-medical criteria.
+KuraLabs S.R.L reserves the right to submit and pursuit for a patent grant for
+any design, algorithm, shape or patentable feature that is present or derived
+from the Intelectual Property (IP) submitted as part of OpenSwab. If granted,
+if any, KuraLabs S.R.L guarantees that **IT WILL NOT USE** its right to enforce
+such patents or seek licensing to any individual or company using any IP from
+OpenSwab in any given context, including comercial use. In addition, KuraLabs
+S.R.L would submit such patents to a pool of defensive patents with the
+ultimate goal of improving access to medical IP in developing countries and to
+help in building a robust body of prior art to protect the use of these
+devices.
+
+In this matter, KuraLabs S.R.L joins the initiative proposed by the President
+of Costa Rica, President Carlos Alvarado, and the Health Minister, Daniel
+Salas, in a March 23 2020 letter[[1]][presidencia-cr] to the World Health
+Organization (WHO) in creating a pool of intelectual property for technologies
+to detect, prevent, control and treat the COVID-19 pandemic to provide free
+access or licensing on reasonable and affordable terms for all countries. Such
+proposal was later supported by the WHO as stated by its General Director
+Tedros Adhanom Ghebreyesus at the media briefing on April 6 2020
+"Muchas gracias, Mr President. I support this proposal, and we are working with
+Costa Rica to finalize the details. [...] I call on all countries, companies
+and research institutions to support open data, open science and open
+collaboration so that all people can enjoy the benefits of science and
+research."[[2]][who-briefing]
+
+For any inquiry related to intelectual property you may contact KuraLabs S.R.L
+at info@kuralabs.io. To learn more about defensive patenting visit
+https://www.defensivepatentlicense.org/
+
+OpenSwab was designed from scratch in Costa Rica.
 
 ```
 Copyright (C) 2020 KuraLabs S.R.L
@@ -218,3 +273,5 @@ Licensed Material available under these terms and conditions.
 [cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
 [cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
 [cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+[presidencia-cr]: https://www.presidencia.go.cr/comunicados/2020/03/costa-rica-submits-proposal-for-who-to-facilitate-access-to-technologies-to-combat-covid-19/
+[who-briefing]: https://www.who.int/dg/speeches/detail/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---6-april-2020

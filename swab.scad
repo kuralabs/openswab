@@ -9,33 +9,33 @@ module swab(
     // Head height
     head_h=20.0,
     // Head external diameter
-    head_external_d=2.0,
+    head_external_d=4.5,
     // Internal head diameter
-    head_internal_d=0.75,
+    head_internal_d=1.5,
     // Head type. Available "bristle" and "pyramid"
     head_type="bristle",
 
     // Flex height, will be placed after the head, thus incrementing the total height
     flex_h=30.0,
     // Flex diameter
-    flex_d=1.25,
+    flex_d=1.75,
 
     // Notch distance from the tip of the swab
-    notch_d=95.0,
+    notch_d=80.0,
     // Notch break percent (100% -> 1.0), amount of material to remove at the notch
-    notch_b=0.4,
+    notch_b=0.55,
     // Notch height
     notch_h=3.0,
 
     // Body height, will be added to the flex, thus incrementing the total height
     body_h=92.0,
     // Body diameter
-    body_d=2.5,
+    body_d=3.5,
 
     // Base height, will be added to the body, thus incrementing the total height
     base_h=3.0,
     // Base diameter
-    base_d=4.0,
+    base_d=4.5,
 ) {
 
     // Head
@@ -73,4 +73,4 @@ module swab(
 }
 
 
-swab($fn=40, head_type="bristle");
+swab($fn=40, head_type="pyramid");

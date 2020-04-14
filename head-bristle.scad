@@ -5,27 +5,26 @@ module bristle_head(
     // Head height
     head_h=20.0,
     // Head external diameter
-    head_external_d=2.0,
+    head_external_d=4.5,
     // Internal head diameter
-    head_internal_d=0.75,
+    head_internal_d=1.5,
 
     // Spiral configuration
-    z_step=0.2,
-    angle_step=83,
+    z_step=0.20,
+    angle_step=25,
     scale_step=-0.065,
-    step_correction=-2,
+    step_correction=-1,
     scale_correction=-5,
 
     // Bristle configuration
-    bristle_t=0.4,
-    bristle_w=0.65,
-    bristle_ratio=0.70
+    bristle_t=1.25,
+    bristle_w=1.25,
 ) {
     tip_start = head_h - head_internal_d / 2;
 
     cylinder(h=tip_start, d=head_internal_d);
     translate([0, 0, tip_start])
-        sphere(head_internal_d / 2);
+        sphere(head_internal_d);
 
     spiral(
         step_max=head_h / z_step + step_correction,
@@ -38,8 +37,7 @@ module bristle_head(
             oval_bristle(
                 extension=head_external_d,
                 thickness=bristle_t,
-                width=bristle_w,
-                ratio=bristle_ratio
+                width=bristle_w
             );
     };
 }

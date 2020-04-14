@@ -5,22 +5,22 @@ module pyramid_head(
     // Head height
     head_h=20.0,
     // Head external diameter
-    head_external_d=2.0,
+    head_external_d=4.5,
     // Internal head diameter
-    head_internal_d=0.75,
+    head_internal_d=1.5,
 
     // Tip tunning
     tip_groove_h=0.4,
-    tip_scale=0.5999,
+    tip_scale=0.4999,
 
     // Pyramid tunning
-    pyramid_start=0.4,
-    piramid_top_ratio=0.5,
+    pyramid_start=0.6,
+    piramid_top_ratio=0.4,
     piramid_botton_ratio=0.9,
     piramid_angular_rotation=20,
 
     // Spiral tunning
-    z_step=0.13,
+    z_step=0.25,
     step_correction=-6,
     angle_step=66,
     scale_step=-0.1,

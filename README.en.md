@@ -153,18 +153,18 @@ some 3D printers:
 ### Creality LD-002R
 
 - **Printing bed size:** *120 x 68 x 160mm*.
-- **Batch size:** *18x10*.
-- **Swab yield:** *180*.
-- **Resin required:** *96.7ml*.
-- **Printing time:** *13h0m54s*.
+- **Batch size:** *12x16*.
+- **Swab yield:** *72*.
+- **Resin required:** *80.2ml*.
+- **Printing time:** *10h38m11s*.
 
 ### Anycubic Photon
 
 - **Printing bed size:** *120 × 68 × 150mm*.
-- **Batch size:** *18x10*.
-- **Swab yield:** *180*.
-- **Resin required:** *96.7ml*.
-- **Printing time:** *12h6m50s*.
+- **Batch size:** *12x6*.
+- **Swab yield:** *72*.
+- **Resin required:** *80.2ml*.
+- **Printing time:** *10h38m11s*.
 
 <p align="center">
     <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">

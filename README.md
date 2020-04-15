@@ -161,18 +161,18 @@ impresoras 3D se listan a continuación:
 ### Creality LD-002R
 
 - **Tamaño de cama de impresión:** *120 x 68 x 160mm*.
-- **Tamaño del lote:** *18x10*.
-- **Cantidad de hisopos producidos:** *180*.
-- **Recina requerida:** *96.7ml*.
-- **Tiempo de impresión:** *13h0m54s*.
+- **Tamaño del lote:** *12x16*.
+- **Cantidad de hisopos producidos:** *72*.
+- **Recina requerida:** *80.2ml*.
+- **Tiempo de impresión:** *10h38m11s*.
 
 ### Anycubic Photon
 
 - **Tamaño de cama de impresión:** *120 × 68 × 150mm*.
-- **Tamaño del lote:** *18x10*.
-- **Cantidad de hisopos producidos:** *180*.
-- **Recina requerida:** *96.7ml*.
-- **Tiempo de impresión:** *12h6m50s*.
+- **Tamaño del lote:** *12x16*.
+- **Cantidad de hisopos producidos:** *72*.
+- **Recina requerida:** *80.2ml*.
+- **Tiempo de impresión:** *10h38m11s*.
 
 <p align="center">
     <img src="doc/images/slicer-grid.png" alt="Batch of OpenSwabs">

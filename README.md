@@ -81,27 +81,27 @@ para un total de cuatro modelos.
 </p>
 
 
-| Modelo             | Bristle 80      | Bristle 95      | Pyramid 80                   | Pyramid 95                   |
-| ------------------ | --------------- | --------------- | ---------------------------- | ---------------------------- |
-| *Público meta*     | Adulto          | Adulto          | Adulto                       | Adulto                       |
-| *Uso*              | Nasofaringeal   | Nasofaringeal   | Nasofaringeal                | Nasofaringeal                |
-| *Altura total*     |         145.0mm |         145.0mm |                      145.0mm |                      145.0mm |
-| *Material*         | Resina UV 405nm | Resina UV 405nm | Resina UV 405nm              | Resina UV 405nm              |
-| *Esterilización*   | Autoclave       | Autoclave       | Autoclave                    | Autoclave                    |
-|                                      **Cabeza**                                                                      |
-| *Textura*          | Hojuela         | Hojuela         | Pirámide truncada            | Pirámide truncada            |
-| *Patrón*           | Helicoidal      | Helicoidal      | Helicoidal                   | Helicoidal                   |
-| *Terminación*      | Esférica        | Esférica        | Toroide con estrella convexa | Toroide con estrella convexa |
-| *Diámetro interno* |          0.75mm |          0.75mm |                       0.75mm |                       0.75mm |
-| *Diámetro externo* |           2.0mm |           2.0mm |                        2.0mm |                        2.0mm |
-| *Largo*            |          20.0mm |          20.0mm |                       20.0mm |                       20.0mm |
-|                                      **Cuello flexible**                                                             |
-| *Diámetro*         |          1.25mm |          1.25mm |                       1.25mm |                       1.25mm |
-| *Largo*            |          30.0mm |          30.0mm |                       30.0mm |                       30.0mm |
-|                                      **Cuerpo**                                                                      |
-| *Diámetro*         |           2.5mm |           2.5mm |                        2.5mm |                        2.5mm |
-| *Largo*            |          95.0mm |          95.0mm |                       95.0mm |                       95.0mm |
-| *Punto de quiebre* |          80.0mm |          95.0mm |                       80.0mm |                       95.0mm |
+| Modelo             | Bristle         |  Pyramid                     |
+| ------------------ | --------------- |  ----------------------------|
+| *Público meta*     | Adulto          |  Adulto                      |
+| *Uso*              | Nasofaringeal   |  Nasofaringeal               |
+| *Altura total*     |         145.0mm |                      145.0mm |
+| *Material*         | Resina UV 405nm |  Resina UV 405nm             |
+| *Esterilización*   | Autoclave       |  Autoclave                   |
+|                             **Cabeza**                              |
+| *Textura*          | Hojuela         | Pirámide truncada            |
+| *Patrón*           | Helicoidal      | Helicoidal                   |
+| *Terminación*      | Esférica        | Toroide con estrella convexa |
+| *Diámetro interno* |           1.5mm |                        1.5mm |
+| *Diámetro externo* |           4.5mm |                        4.5mm |
+| *Largo*            |          20.0mm |                       20.0mm |
+|                         **Cuello flexible**                         |
+| *Diámetro*         |          1.75mm |                       1.75mm |
+| *Largo*            |          30.0mm |                       30.0mm |
+|                            **Cuerpo**                               |
+| *Diámetro*         |           3.5mm |                        3.5mm |
+| *Largo*            |          95.0mm |                       95.0mm |
+| *Punto de quiebre* |          80.0mm |                       80.0mm |
 
 Todas estas dimensiones son fácilmente configurables.
 Ver sección de [Configuración del Producto](#configuracion-del-producto).

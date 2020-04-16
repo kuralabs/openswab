@@ -4,7 +4,7 @@
 
 [English Version](README.en.md)
 
-[Versión en PDF](doc/OpenSwab-Rev-2-KuraLabs.pdf)
+[Versión en PDF](doc/OpenSwab-Rev-3-KuraLabs.pdf)
 
 ## Descargo de responsabilidad
 

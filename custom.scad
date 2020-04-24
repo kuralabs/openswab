@@ -10,7 +10,7 @@ head_external_d = 4.0;      // [1.0:0.01:5.0]
 // Internal head diameter
 head_internal_d = 1.5;      // [0.1:0.01:5.0]
 // Head type.
-head_type = "bristle";      // ["bristle", "pyramid", "none"]
+head_type = "vitellus";     // ["bristle", "pyramid", "vitellus", "none"]
 
 /* [Flex Neck] */
 

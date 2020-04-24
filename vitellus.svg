@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="399.81598pt"
+   height="1063.2708pt"
+   viewBox="0 0 399.81598 1063.2708"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg66"
+   sodipodi:docname="egg.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <title
+     id="title908">Easter Egg</title>
+  <defs
+     id="defs70" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1853"
+     inkscape:window-height="1016"
+     id="namedview68"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true"
+     inkscape:bbox-paths="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:zoom="0.58404691"
+     inkscape:cx="266.54399"
+     inkscape:cy="708.84717"
+     inkscape:window-x="67"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg66"
+     borderlayer="true"
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata60">
+Created by potrace 1.15, written by Peter Selinger 2001-2017
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title>Easter Egg</dc:title>
+    <cc:license
+       rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+    <dc:source>https://svgsilh.com/image/2181491.html</dc:source>
+  </cc:Work>
+  <cc:License
+     rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+    <cc:permits
+       rdf:resource="http://creativecommons.org/ns#Reproduction" />
+    <cc:permits
+       rdf:resource="http://creativecommons.org/ns#Distribution" />
+    <cc:permits
+       rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+  </cc:License>
+</rdf:RDF>
+</metadata>
+  <path
+     style="fill:#000000;stroke:none;stroke-width:0.09999999"
+     d="M 1.9980451,0.00228788 C 1.3333575,-0.00296212 0.66641252,0.00231038 0,0.00378788 V 1063.2708 c 55.367079,-0.024 110.47983,-10.9602 160.68604,-32.4418 129.7,-55.50002 216.49975,-173.10054 235.19972,-319.00052 5.7,-44.90003 5.19998,-101.1004 -1.5,-146.90039 -9.99997,-68.90001 -28.70032,-133.99952 -58.8003,-204.49952 -10.10002,-23.5 -33.6996,-71.30049 -46.5996,-94.00049 C 228.88588,160.12808 158.38516,76.028267 92.285162,31.628266 69.885159,16.628266 43.085356,5.028653 22.485353,1.5286579 17.060355,0.5661529 9.6254178,0.06278289 1.9980451,0.00228788 Z"
+     id="path62"
+     inkscape:connector-curvature="0" />
+</svg>

@@ -1,5 +1,6 @@
 use <head-bristle.scad>;
 use <head-pyramid.scad>;
+use <head-vitellus.scad>;
 use <body.scad>;
 
 
@@ -12,8 +13,8 @@ module swab(
     head_external_d=4.0,
     // Internal head diameter
     head_internal_d=1.5,
-    // Head type. Available "bristle" and "pyramid"
-    head_type="bristle",
+    // Head type. Available "bristle", "pyramid" or "vitellus"
+    head_type="vitellus",
 
     // Flex height, will be placed after the head, thus incrementing the total height
     flex_h=30.0,
@@ -52,6 +53,12 @@ module swab(
                 head_external_d=head_external_d,
                 head_internal_d=head_internal_d
             );
+        } else if (head_type == "vitellus") {
+            vitellus_head(
+                head_h=head_h,
+                head_external_d=head_external_d,
+                head_internal_d=head_internal_d
+            );
         } else {
             cylinder(h=head_h, d=head_external_d);
         }
@@ -73,4 +80,4 @@ module swab(
 }
 
 
-swab($fn=40, head_type="pyramid");
+swab($fn=40, head_type="vitellus");

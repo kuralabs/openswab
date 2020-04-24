@@ -65,32 +65,6 @@ module spiral(step_max=100, z_step=0.1, angle_step=5, scale_step=-0.01, scale_st
 
 
 /**
- * Generate a hollow oval shape.
- */
-module oval_hollow_bristle(extension=2.0, thickness=0.5, width=1, ratio=0.8) {
-    render() {
-        difference() {
-            scale([extension, width, thickness])
-                sphere(d=1);
-            scale([extension * ratio, width * ratio, thickness])
-                cylinder(h=1, d=1, center=true);
-        }
-    }
-}
-
-/**
- * Generate a oval shape.
- */
-module oval_bristle(extension=2.0, thickness=0.5, width=1) {
-    render() {
-        scale([extension, width, thickness])
-            sphere(d=1);
-    }
-}
-
-
-
-/**
  * A negative shape to create notches in cylindrical objects.
  */
 module notch(external_d=3, internal_d=1, height=3) {

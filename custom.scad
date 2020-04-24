@@ -6,7 +6,7 @@ use <swab.scad>;
 // Head height
 head_h = 20.0;              // [1.0:1.0:50.0]
 // Head external diameter
-head_external_d = 4.5;      // [1.0:0.01:5.0]
+head_external_d = 4.0;      // [1.0:0.01:5.0]
 // Internal head diameter
 head_internal_d = 1.5;      // [0.1:0.01:5.0]
 // Head type.

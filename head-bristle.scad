@@ -1,11 +1,36 @@
 use <library.scad>;
 
 
+/**
+ * Generate a hollow oval shape.
+ */
+module oval_hollow_bristle(extension=2.0, thickness=0.5, width=1, ratio=0.8) {
+    render() {
+        difference() {
+            scale([extension, width, thickness])
+                sphere(d=1);
+            scale([extension * ratio, width * ratio, thickness])
+                cylinder(h=1, d=1, center=true);
+        }
+    }
+}
+
+/**
+ * Generate a oval shape.
+ */
+module oval_bristle(extension=2.0, thickness=0.5, width=1) {
+    render() {
+        scale([extension, width, thickness])
+            sphere(d=1);
+    }
+}
+
+
 module bristle_head(
     // Head height
     head_h=20.0,
     // Head external diameter
-    head_external_d=4.5,
+    head_external_d=4.0,
     // Internal head diameter
     head_internal_d=1.5,
 

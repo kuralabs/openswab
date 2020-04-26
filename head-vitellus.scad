@@ -3,7 +3,7 @@ use <library.scad>;
 
 module vitellus(scaling) {
     render()
-        translate([0, 0, 0.65])
+        translate([0, 0, 0.72])
             rotate([-90, 0, 0])
                 scale([scaling, scaling, scaling])
                     rotate_extrude()
@@ -22,13 +22,13 @@ module vitellus_head(
     // Spiral configuration
     z_step=0.17,
     angle_step=62, // 47 or 62 or 64
-    scale_step=-0.055,
+    scale_step=-0.058,
     step_correction=-4,
-    scale_correction=-7,
+    scale_correction=-8,
     tip_diameter_correction=0.2,
 
     // Vitellus configuration
-    vitellus_scaling=0.0045,
+    vitellus_scaling=0.0051,
 ) {
     tip_r = head_internal_d / 2 + tip_diameter_correction;
     tip_start = head_h - tip_r;
@@ -46,6 +46,8 @@ module vitellus_head(
     ) {
         vitellus(vitellus_scaling);
     };
+
+    // cylinder(h=1, d=head_external_d);
 }
 
 

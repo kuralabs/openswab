@@ -71,33 +71,33 @@ OpenSwab team for more information.
 ## Technical Specifications
 
 OpenSwab offers four models with different sample collection heads, named
-"Bristle", "Pyramid", "Vitellus" and "Albumen".
+"Bristle", "Pyramid" and "Vitellus".
 
 <p align="center">
     <img src="doc/images/openswab-heads.png" alt="OpenSwab Heads">
 </p>
 
-| Model               | Bristle         |  Pyramid                  | Vitellus        | Albumen         |
-| ------------------- | --------------- |  -------------------------| ----------------| ----------------|
-| *Target audience*   | Adult           |  Adult                    | Adult           | Adult           |
-| *Use*               | Nasopharyngeal  |  Nasopharyngeal           | Nasopharyngeal  | Nasopharyngeal  |
-| *Total height*      |         145.0mm |                   145.0mm |         145.0mm |         145.0mm |
-| *Material*          | UV Resin 405nm  |  UV Resin 405nm           | UV Resin 405nm  | UV Resin 405nm  |
-| *Sterilization*     | Autoclave       |  Autoclave                | Autoclave       | Autoclave       |
-|                                                  **Head**                                             |
-| *Texture*           | Flake           | Truncated pyramid         | Ellipsoid       | Concave Rhombus |
-| *Pattern*           | Helicoidal      | Helicoidal                | Helicoidal      | Helicoidal      |
-| *End*               | Spherical       | Toroid with convex star   | Spherical       | Spherical       |
-| *Internal diameter* |           1.5mm |                     1.5mm |           1.5mm |           1.5mm |
-| *External diameter* |           4.5mm |                     4.5mm |           3.9mm |           3.9mm |
-| *Height*            |          20.0mm |                    20.0mm |          20.0mm |          20.0mm |
-|                                                  **Neck**                                             |
-| *Diameter*          |          1.75mm |                    1.75mm |           1.5mm |           1.5mm |
-| *Height*            |          30.0mm |                    30.0mm |          30.0mm |          30.0mm |
-|                                                  **Body**                                             |
-| *Diameter*          |           3.5mm |                     3.5mm |          2.75mm |          2.75mm |
-| *Height*            |          95.0mm |                    95.0mm |          95.0mm |          95.0mm |
-| *Breakpoint*        |          80.0mm |                    80.0mm |          80.0mm |          80.0mm |
+| Model               | Bristle         |  Pyramid                  | Vitellus        |
+| ------------------- | --------------- |  -------------------------| ----------------|
+| *Target audience*   | Adult           |  Adult                    | Adult           |
+| *Use*               | Nasopharyngeal  |  Nasopharyngeal           | Nasopharyngeal  |
+| *Total height*      |         145.0mm |                   145.0mm |         145.0mm |
+| *Material*          | UV Resin 405nm  |  UV Resin 405nm           | UV Resin 405nm  |
+| *Sterilization*     | Autoclave       |  Autoclave                | Autoclave       |
+|                                                  **Head**                           |
+| *Texture*           | Flake           | Truncated pyramid         | Ellipsoid       |
+| *Pattern*           | Helicoidal      | Helicoidal                | Helicoidal      |
+| *End*               | Spherical       | Toroid with convex star   | Spherical       |
+| *Internal diameter* |           1.5mm |                     1.5mm |           1.5mm |
+| *External diameter* |           4.5mm |                     4.5mm |           3.9mm |
+| *Height*            |          20.0mm |                    20.0mm |          20.0mm |
+|                                                  **Neck**                           |
+| *Diameter*          |          1.75mm |                    1.75mm |           1.5mm |
+| *Height*            |          30.0mm |                    30.0mm |          30.0mm |
+|                                                  **Body**                           |
+| *Diameter*          |           3.5mm |                     3.5mm |          2.75mm |
+| *Height*            |          95.0mm |                    95.0mm |          95.0mm |
+| *Breakpoint*        |          80.0mm |                    80.0mm |          80.0mm |
 
 All this dimension are easily configured.
 See [Product Configuration](#product-configuration) section.

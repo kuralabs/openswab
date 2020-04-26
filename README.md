@@ -73,35 +73,34 @@ contactar al equipo de OpenSwab para más información.
 ## Especificaciones Técnicas
 
 OpenSwab ofrece cuatro modelos con diferentes versiones de cabeza para la
-recolección de muestras, denominadas "Bristle", "Pyramid", "Vitellus" y
-"Albumen".
+recolección de muestras, denominadas "Bristle", "Pyramid", "Vitellus".
 
 <p align="center">
     <img src="doc/images/openswab-heads.png" alt="OpenSwab Heads">
 </p>
 
 
-| Modelo             | Bristle         | Pyramid                      | Vitellus        | Albumen         |
-| ------------------ | --------------- | -----------------------------| ----------------| ----------------|
-| *Público meta*     | Adulto          | Adulto                       | Adulto          | Adulto          |
-| *Uso*              | Nasofaringeal   | Nasofaringeal                | Nasofaringeal   | Nasofaringeal   |
-| *Altura total*     |         145.0mm |                      145.0mm |         145.0mm |         145.0mm |
-| *Material*         | Resina UV 405nm | Resina UV 405nm              | Resina UV 405nm | Resina UV 405nm |
-| *Esterilización*   | Autoclave       | Autoclave                    | Autoclave       | Autoclave       |
-|                                               **Cabeza**                                                |
-| *Textura*          | Hojuela         | Pirámide truncada            | Elipsoide       | Rombo cóncavo   |
-| *Patrón*           | Helicoidal      | Helicoidal                   | Helicoidal      | Helicoidal      |
-| *Terminación*      | Esférica        | Toroide con estrella convexa | Esférica        | Esférica        |
-| *Diámetro interno* |           1.5mm |                       1.85mm |           1.5mm |           1.5mm |
-| *Diámetro externo* |           3.9mm |                        3.9mm |           3.9mm |           3.9mm |
-| *Largo*            |          20.0mm |                       20.0mm |          20.0mm |          20.0mm |
-|                                            **Cuello flexible**                                          |
-| *Diámetro*         |           1.5mm |                        1.5mm |           1.5mm |           1.5mm |
-| *Largo*            |          30.0mm |                       30.0mm |          30.0mm |          30.0mm |
-|                                               **Cuerpo**                                                |
-| *Diámetro*         |          2.75mm |                       2.75mm |          2.75mm |          2.75mm |
-| *Largo*            |          95.0mm |                       95.0mm |          95.0mm |          95.0mm |
-| *Punto de quiebre* |          80.0mm |                       80.0mm |          80.0mm |          80.0mm |
+| Modelo             | Bristle         | Pyramid                      | Vitellus        |
+| ------------------ | --------------- | -----------------------------| ----------------|
+| *Público meta*     | Adulto          | Adulto                       | Adulto          |
+| *Uso*              | Nasofaringeal   | Nasofaringeal                | Nasofaringeal   |
+| *Altura total*     |         145.0mm |                      145.0mm |         145.0mm |
+| *Material*         | Resina UV 405nm | Resina UV 405nm              | Resina UV 405nm |
+| *Esterilización*   | Autoclave       | Autoclave                    | Autoclave       |
+|                                               **Cabeza**                              |
+| *Textura*          | Hojuela         | Pirámide truncada            | Elipsoide       |
+| *Patrón*           | Helicoidal      | Helicoidal                   | Helicoidal      |
+| *Terminación*      | Esférica        | Toroide con estrella convexa | Esférica        |
+| *Diámetro interno* |           1.5mm |                       1.85mm |           1.5mm |
+| *Diámetro externo* |           3.9mm |                        3.9mm |           3.9mm |
+| *Largo*            |          20.0mm |                       20.0mm |          20.0mm |
+|                                            **Cuello flexible**                        |
+| *Diámetro*         |           1.5mm |                        1.5mm |           1.5mm |
+| *Largo*            |          30.0mm |                       30.0mm |          30.0mm |
+|                                               **Cuerpo**                              |
+| *Diámetro*         |          2.75mm |                       2.75mm |          2.75mm |
+| *Largo*            |          95.0mm |                       95.0mm |          95.0mm |
+| *Punto de quiebre* |          80.0mm |                       80.0mm |          80.0mm |
 
 Todas estas dimensiones son fácilmente configurables.
 Ver sección de [Configuración del Producto](#configuracion-del-producto).

@@ -22,20 +22,20 @@ module vitellus_head(
     // Spiral configuration
     z_step=0.17,
     angle_step=62, // 47 or 62 or 64
-    scale_step=-0.065,
-    step_correction=0,
-    scale_correction=0,
-    tip_start_correction=0.4,
-    tip_diameter_correction=-0.2,
+    scale_step=-0.055,
+    step_correction=-4,
+    scale_correction=-7,
+    tip_diameter_correction=0.2,
 
     // Vitellus configuration
     vitellus_scaling=0.0045,
 ) {
-    tip_start = head_h - head_internal_d / 2;
+    tip_r = head_internal_d / 2 + tip_diameter_correction;
+    tip_start = head_h - tip_r;
 
     cylinder(h=tip_start, d=head_internal_d);
-    translate([0, 0, tip_start + tip_start_correction])
-        sphere(head_internal_d + tip_diameter_correction);
+    translate([0, 0, tip_start])
+        sphere(r=tip_r);
 
     spiral(
         step_max=head_h / z_step + step_correction,

@@ -1,6 +1,7 @@
 use <head-bristle.scad>;
 use <head-pyramid.scad>;
 use <head-vitellus.scad>;
+use <head-albumen.scad>;
 use <body.scad>;
 
 /* [Head] */
@@ -12,7 +13,7 @@ head_external_d = 4.0;      // [1.0:0.01:5.0]
 // Internal head diameter
 head_internal_d = 1.5;      // [0.1:0.01:5.0]
 // Head type.
-head_type = "vitellus";     // ["bristle", "pyramid", "vitellus", "none"]
+head_type = "vitellus";     // ["bristle", "pyramid", "vitellus", "albumen", "none"]
 
 /* [Flex Neck] */
 
@@ -82,6 +83,12 @@ module swab(
             );
         } else if (head_type == "vitellus") {
             vitellus_head(
+                head_h=head_h,
+                head_external_d=head_external_d,
+                head_internal_d=head_internal_d
+            );
+        } else if (head_type == "albumen") {
+            albumen_head(
                 head_h=head_h,
                 head_external_d=head_external_d,
                 head_internal_d=head_internal_d

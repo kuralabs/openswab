@@ -20,7 +20,7 @@ module helicoid(
 
 
 
-module vitellus_head(
+module albumen_head(
     // Head height
     head_h=20.0,
     // Head external diameter
@@ -30,21 +30,26 @@ module vitellus_head(
 
     // Albumen configuration
     albumen_head_fn=13,
-    albumen_twists=1.5,
+    albumen_twists=1.249,
 ) {
-    tip_start = head_h - head_internal_d / 2;
+    half_tip = head_external_d / 2;
+    tip_start = head_h - half_tip;
 
     cylinder(h=tip_start, d=head_internal_d);
     translate([0, 0, tip_start])
         sphere(d=head_external_d, $fn=albumen_head_fn);
 
+    translate([0, 0, half_tip])
+        sphere(d=head_external_d, $fn=albumen_head_fn);
+
+    translate([0, 0, half_tip])
     helicoid(
-        radius=head_external_d / 2,
+        radius=half_tip,
         thickness=head_external_d - head_internal_d,
-        height=tip_start,
+        height=tip_start - half_tip,
         twists=albumen_twists
     );
 }
 
 
-vitellus_head($fn=40);
+albumen_head($fn=40);

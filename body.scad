@@ -15,19 +15,19 @@ module body(
     // Notch distance from the tip of the swab
     notch_d=80.0,
     // Notch break percent (100% -> 1.0), amount of material to remove at the notch
-    notch_b=0.50,
+    notch_b=0.455,
     // Notch height
     notch_h=3.0,
 
     // Body height, will be added to the flex, thus incrementing the total height
     body_h=92.0,
     // Body diameter
-    body_d=3.0,
+    body_d=2.75,
 
     // Base height, will be added to the body, thus incrementing the total height
     base_h=3.0,
     // Base diameter
-    base_d=4.5,
+    base_d=4.0,
 ) {
     total_height = head_h + flex_h + body_h + base_h;
 

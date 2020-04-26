@@ -10,19 +10,19 @@ module body(
     // Flex height, will be placed after the head, thus incrementing the total height
     flex_h=30.0,
     // Flex diameter
-    flex_d=1.75,
+    flex_d=1.5,
 
     // Notch distance from the tip of the swab
     notch_d=80.0,
     // Notch break percent (100% -> 1.0), amount of material to remove at the notch
-    notch_b=0.55,
+    notch_b=0.50,
     // Notch height
     notch_h=3.0,
 
     // Body height, will be added to the flex, thus incrementing the total height
     body_h=92.0,
     // Body diameter
-    body_d=3.5,
+    body_d=3.0,
 
     // Base height, will be added to the body, thus incrementing the total height
     base_h=3.0,

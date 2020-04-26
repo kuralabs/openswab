@@ -15,7 +15,7 @@ module vitellus_head(
     // Head height
     head_h=20.0,
     // Head external diameter
-    head_external_d=4.0,
+    head_external_d=3.9,
     // Internal head diameter
     head_internal_d=1.5,
 
@@ -49,4 +49,4 @@ module vitellus_head(
 }
 
 
-vitellus_head($fn=40);
+vitellus_head($fn=24);

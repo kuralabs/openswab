@@ -31,32 +31,44 @@ module body(
 ) {
     total_height = head_h + flex_h + body_h + base_h;
 
-    render() {
-        // Transition smoother
-        translate([0, 0, base_h + body_h + flex_h])
-            smoother(flex_d, head_d);
+    // Transition smoother
+    translate([0, 0, base_h + body_h + flex_h])
+        smoother(flex_d, head_d);
 
-        // Flex
-        translate([0, 0, base_h + body_h])
-            cylinder(h=flex_h, d=flex_d);
-        translate([0, 0, base_h + body_h])
-            smoother(external_d=body_d, internal_d=flex_d);
+    // Flex
+    translate([0, 0, base_h + body_h])
+        cylinder(h=flex_h, d=flex_d);
+    translate([0, 0, base_h + body_h])
+        smoother(external_d=body_d, internal_d=flex_d);
 
-        // Body
-        difference() {
-            translate([0, 0, base_h])
-                cylinder(h=body_h, d=body_d);
-                    // The notch
-            translate([0, 0, total_height - notch_d])
-                notch(
-                    external_d=body_d,
-                    internal_d=body_d - body_d * notch_b,
-                    height=notch_h
-                );
-        }
+    // Body
+    difference() {
+        translate([0, 0, base_h])
+            cylinder(h=body_h, d=body_d);
+                // The notch
+        translate([0, 0, total_height - notch_d])
+            notch(
+                external_d=body_d,
+                internal_d=body_d - body_d * notch_b,
+                height=notch_h
+            );
+    }
 
-        // Base
+    // Base
+    difference() {
         cylinder(h=base_h, d=base_d);
+
+        // Revision number
+        revision = 4;
+
+        rotate([0, 180, 0]) color("red")
+            linear_extrude(height=1, center=true)
+                text(
+                    str(revision),
+                    size=base_d * 0.6,
+                    halign="center",
+                    valign="center"
+                );
     }
 }
 

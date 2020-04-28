@@ -67,6 +67,26 @@ OpenSwab team for more information.
 
 <br clear="right"/>
 
+## Photos
+
+<p align="center">
+  <img src="doc/photos/swabs.jpg" align="right" width="800" alt="OpenSwab swabs">
+</p>
+
+<br clear="right"/>
+
+<p align="center">
+  <img src="doc/photos/heads.jpg" align="right" width="800" alt="OpenSwab heads">
+</p>
+
+<br clear="right"/>
+
+<p align="center">
+  <img src="doc/photos/group.jpg" align="right" width="800" alt="OpenSwab group">
+</p>
+
+<br clear="right"/>
+
 
 ## Technical Specifications
 
@@ -74,7 +94,7 @@ OpenSwab offers four models with different sample collection heads, named
 "Bristle", "Pyramid" and "Vitellus".
 
 <p align="center">
-    <img src="doc/images/openswab-heads.png" alt="OpenSwab Heads">
+    <img src="doc/images/openswab-heads.png" width="500" alt="OpenSwab Heads">
 </p>
 
 | Model               | Bristle         |  Pyramid                  | Vitellus        |

@@ -69,6 +69,25 @@ contactar al equipo de OpenSwab para más información.
 
 <br clear="right"/>
 
+## Fotos
+
+<p align="center">
+  <img src="doc/photos/swabs.jpg" align="right" width="800" alt="OpenSwab swabs">
+</p>
+
+<br clear="right"/>
+
+<p align="center">
+  <img src="doc/photos/heads.jpg" align="right" width="800" alt="OpenSwab heads">
+</p>
+
+<br clear="right"/>
+
+<p align="center">
+  <img src="doc/photos/group.jpg" align="right" width="800" alt="OpenSwab group">
+</p>
+
+<br clear="right"/>
 
 ## Especificaciones Técnicas
 
@@ -76,7 +95,7 @@ OpenSwab ofrece cuatro modelos con diferentes versiones de cabeza para la
 recolección de muestras, denominadas "Bristle", "Pyramid", "Vitellus".
 
 <p align="center">
-    <img src="doc/images/openswab-heads.png" alt="OpenSwab Heads">
+    <img src="doc/images/openswab-heads.png" width="500" alt="OpenSwab Heads">
 </p>
 
 

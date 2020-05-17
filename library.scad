@@ -121,14 +121,18 @@ module spiral(step_max=100, z_step=0.1, angle_step=5, scale_step=-0.01, scale_st
 /**
  * A negative shape to create notches in cylindrical objects.
  */
-module notch(external_d=3, internal_d=1, height=3) {
+module notch(external_d=3, internal_d=1, height=3, extension=0.75) {
+    slop_h = (height - extension) / 2;
+
     difference() {
         cylinder(d=external_d * 1.0001, h=height * 0.9999, center=true);
 
         union() {
-            cylinder(d1=internal_d, d2=external_d, h=height / 2);
-                translate([0, 0, - height / 2])
-            cylinder(d1=external_d, d2=internal_d, h=height / 2);
+            translate([0, 0, (height / 2) - slop_h])
+                cylinder(d1=internal_d, d2=external_d, h=slop_h);
+
+            translate([0, 0, - (height / 2)])
+                cylinder(d1=external_d, d2=internal_d, h=slop_h);
 
             cylinder(d=internal_d, h=height, center=true);
         }

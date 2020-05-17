@@ -119,7 +119,7 @@ recolección de muestras, denominadas "Bristle", "Pyramid", "Vitellus".
 |                                               **Cuerpo**                              |
 | *Diámetro*         |          2.75mm |                       2.75mm |          2.75mm |
 | *Largo*            |          95.0mm |                       95.0mm |          95.0mm |
-| *Punto de quiebre* |          80.0mm |                       80.0mm |          80.0mm |
+| *Punto de quiebre* |          95.0mm |                       95.0mm |          95.0mm |
 
 Todas estas dimensiones son fácilmente configurables.
 Ver sección de [Configuración del Producto](#configuracion-del-producto).

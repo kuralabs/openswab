@@ -117,7 +117,7 @@ OpenSwab offers four models with different sample collection heads, named
 |                                                  **Body**                           |
 | *Diameter*          |           3.5mm |                     3.5mm |          2.75mm |
 | *Height*            |          95.0mm |                    95.0mm |          95.0mm |
-| *Breakpoint*        |          80.0mm |                    80.0mm |          80.0mm |
+| *Breakpoint*        |          95.0mm |                    95.0mm |          95.0mm |
 
 All this dimension are easily configured.
 See [Product Configuration](#product-configuration) section.
